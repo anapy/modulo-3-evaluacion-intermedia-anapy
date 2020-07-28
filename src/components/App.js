@@ -6,6 +6,7 @@ import PokemonsFromApi from '../data/Pokemons.json'
 
 const App = () => {
     return (<div className="App">
+      <h1>PokeDex</h1>
       <PokeList pokemons={PokemonsFromApi}/>
     </div>
   );
