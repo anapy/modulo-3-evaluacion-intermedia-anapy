@@ -1,17 +1,18 @@
 import React from 'react';
 
 
-class Pokemon extends React.Component {
-  render() {
-    return (
-    <div>
-      <li className="cardList">hola</li>
-      <li className="cardList">hola</li>
-      <li className="cardList">hola</li>
-    </div>
-
-    );
+const Pokemon = props => {
+  const types = props.types.map((type, index) => {
+    return <li key={index}>{type}</li>
   }
+  );
+    return (
+    <article>
+    <h2>{props.name}</h2>
+    <div><img src={props.img} alt={props.name}/></div>
+    <ul className="types">{types}</ul>
+    </article>
+    );
 }
 
 export default Pokemon;
