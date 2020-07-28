@@ -1,7 +1,7 @@
 import React from 'react';
 
 
-class Item extends React.Component {
+class Pokemon extends React.Component {
   render() {
     return (
     <div>
@@ -14,4 +14,4 @@ class Item extends React.Component {
   }
 }
 
-export default Item;
+export default Pokemon;
