@@ -13,3 +13,46 @@ li {
   text-align: center;
   padding: 20px;
 }
+
+.pokeList {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.pokemon_container {
+  background-color: rgb(227, 241, 241);
+  margin: 10px;
+  width: 150px;
+  height: 200px;
+  align-items: center;
+  border: 2px solid black;
+  border-radius: 20px;
+}
+
+.pokemon {
+}
+
+.name {
+  padding: 10px;
+  text-transform: capitalize;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
+}
+
+.types {
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.type {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 60px;
+  background-color: rgb(133, 170, 172);
+  height: 30px;
+  border-radius: 10px;
+}
