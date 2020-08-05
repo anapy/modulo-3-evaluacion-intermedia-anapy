@@ -5,10 +5,13 @@
   color: rgb(255, 255, 255);
 }
 body {
-  background-color: rgb(179, 219, 192);
+  background-image: url('https://wallpapercave.com/wp/7fsIJre.png') ;
 }
-h1 {
-  color: rgb(240, 81, 81);
+
+.mainTitle {
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 42px;
 }
 
 li {

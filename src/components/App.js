@@ -7,7 +7,7 @@ import PokemonsFromApi from '../data/Pokemons.json'
 const App = () => {
   const [pokemons] = useState(PokemonsFromApi);
     return (<div className="App">
-      <h1>PokeDex</h1>
+      <h1 className="mainTitle">My Pokedex</h1>
       <PokeList pokemons={pokemons}/>
     </div>
   );
