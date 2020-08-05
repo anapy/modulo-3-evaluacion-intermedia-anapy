@@ -7,7 +7,6 @@ body {
   background-image: url('https://wallpapercave.com/wp/7fsIJre.png') ;
 }
 
-
 li {
   display: block;
   text-decoration: none;
@@ -44,7 +43,7 @@ li {
 }
 
 .pokemon_container:hover{
-  background-color: white;
+  background-color: rgb(255, 255, 255);
 }
 
 .name {
@@ -79,4 +78,8 @@ li {
 
 .favourite {
   background-color: rgb(236, 240, 23);
+}
+
+.favourite:hover {
+  background-color: rgb(201, 244, 245);
 }
