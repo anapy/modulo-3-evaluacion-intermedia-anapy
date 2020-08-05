@@ -6,6 +6,8 @@ class Pokemon extends React.Component {
     const types = props.types.map((type, index) => {
       return <li className="type" key={index}>{type}</li>
     } );
+
+    console.log(this.props.favourite);
     return (
     <article className="pokemon">
       <div className="photo_container"><img className="img" src={props.img} alt={props.name}/></div>

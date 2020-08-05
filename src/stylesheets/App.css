@@ -16,7 +16,6 @@ li {
 .App {
   text-align: center;
   padding: 20px;
-  
 }
 
 .mainTitle {
@@ -76,4 +75,8 @@ li {
   background-color: rgb(190, 141, 141);
   height: 30px;
   border-radius: 10px;
+}
+
+.favourite {
+  background-color: rgb(236, 240, 23);
 }
