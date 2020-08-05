@@ -2,17 +2,11 @@
   font-family: 'Roboto', sans-serif;
   margin: 0;
   padding: 0;
-  color: rgb(255, 255, 255);
 }
 body {
   background-image: url('https://wallpapercave.com/wp/7fsIJre.png') ;
 }
 
-.mainTitle {
-  padding: 20px;
-  color: rgb(0, 0, 0);
-  font-size: 42px;
-}
 
 li {
   display: block;
@@ -22,10 +16,17 @@ li {
 .App {
   text-align: center;
   padding: 20px;
+  
+}
 
+.mainTitle {
+  padding: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 42px;
 }
 
 .pokeList {
+  color: rgb(255, 255, 255);
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
@@ -44,7 +45,7 @@ li {
 }
 
 .pokemon_container:hover{
-  transform: scale(1, 0.5);
+  background-color: white;
 }
 
 .name {
@@ -65,7 +66,6 @@ li {
   text-transform: capitalize;
   width: 100%;
   transform: translate(0, -25px);
-
 }
 
 .type {
